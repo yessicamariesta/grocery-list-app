@@ -1,0 +1,164 @@
+/* CONTENT */
+.section-center {
+  max-width: 560px;
+  width: 90vw;
+  margin: 120px auto;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: all 0.3s linear;
+}
+
+.section-center:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form > h3 {
+  color: hsl(205, 86%, 17%);
+  font-size: 28px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-control > input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 17px;
+  background-color: hsl(210, 36%, 96%);
+  border: transparent;
+  border-radius: 5px 0 0 5px;
+  padding: 3px 20px 5px;
+}
+
+.form-control > button {
+  font-family: inherit;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 0 15px;
+  border: transparent;
+  border-radius: 0 5px 5px 0;
+  background-color: hsl(205, 86%, 81%);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.form-control > button:hover {
+  background-color: hsl(205, 78%, 60%);
+  color: #fff;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+}
+
+.grocery-container > button {
+  display: grid;
+  align-items: center;
+  margin: 0 auto;
+  color: hsl(360, 71%, 66%);
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.grocery-container > button:hover {
+  color: hsl(360, 67%, 44%);
+}
+
+/* LIST */
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+
+.grocery-item:hover {
+  background-color: hsl(210, 36%, 96%);
+}
+
+.grocery-item:hover > p {
+  color: hsl(210, 22%, 49%);
+}
+
+.grocery-item > p {
+  color: hsl(205, 86%, 17%);
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  transition: all 0.3s linear;
+}
+
+.btn-container {
+  display: flex;
+  column-gap: 10px;
+}
+
+.btn-container > button:first-child {
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  color: hsl(125, 71%, 66%);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btn-container > button:first-child:hover {
+  color: hsl(125, 67%, 44%);
+}
+
+.btn-container > button:nth-child(2) {
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  color: hsl(360, 71%, 66%);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btn-container > button:nth-child(2):hover {
+  color: hsl(360, 67%, 44%);
+}
+
+/* ALERT */
+.alert-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.25rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.alert-container > p {
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
+
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
